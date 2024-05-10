@@ -1,0 +1,35 @@
+.navbar {
+    background-color: skyblue;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow */
+    position: fixed;
+    width: 100%; /* Make Navbar full width */
+    top: 0; /* Position Navbar at the top */
+    font-size: 18px; /* Increase font size */
+}
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.navbar-item {
+    margin: 0 10px;
+}
+
+.navbar-item:last-child {
+    margin-right: 20px; /* Add extra margin to the last item */
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    font-weight: bold; /* Make text bold */
+}
+
+.navbar-item a:hover {
+    text-decoration: underline;
+}
+

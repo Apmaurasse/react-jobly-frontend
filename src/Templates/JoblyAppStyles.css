@@ -1,0 +1,96 @@
+.section-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-top: 70px;
+  }
+  
+  .item-container {
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded borders */
+    border: 4px solid rgba(0, 0, 0, 0.1); /* Border effect */
+    padding: 20px; /* Padding inside the container */
+    margin-bottom: 20px; /* Spacing between each company */
+    max-width: 600px; /* Set a maximum width */
+    width: 100%; /* Take up full width within its container */
+  }
+
+.title-container {
+  margin-top: 80px;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #919191,
+  1px 2px 1px #919191,
+  1px 3px 1px #919191,
+  1px 4px 1px #919191, 
+  1px 5px 1px #919191,
+  1px 6px 1px #919191,
+1px 18px 4px rgba(16,16,16,0.2), /* Reduced blur radius and spread */
+1px 22px 8px rgba(16,16,16,0.1),  /* Reduced blur radius and spread */
+1px 25px 25px rgba(16,16,16,0.1), /* Reduced blur radius and spread */
+1px 30px 50px rgba(16,16,16,0.2); /* Reduced blur radius and spread */
+
+  text-align: center; 
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 4px solid rgba(0, 0, 0, 0.1); /* Border effect */
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center; 
+}
+
+.form-item {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.form-item label {
+  flex: 1; /* Take up all available space */
+  margin-right: 10px; /* Add some spacing between label and input */
+}
+
+.form-item input {
+  flex: 2; /* Take up twice as much space as the label */
+}
+
+
+.red-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.red-button:hover {
+  background-color: darkred;
+}
+
+/* Dark-Red Button */
+.dark-red-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: default;
+}
